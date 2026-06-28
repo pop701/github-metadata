@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pizza Poco Loco — Pizza ca în Vestul Sălbatic | pizzapocoloco.ro</title>
+  <meta name="description" content="Pizza Poco Loco — pizza coaptă pe vatră, ingrediente proaspete și sosuri de casă. Comandă online în orașul tău. Livrare rapidă, gust nebun!" />
+  <link rel="icon" href="assets/img/logo.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rye&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== Header / Navigare ===== -->
+  <header class="site-header" id="top">
+    <div class="container nav">
+      <a href="#top" class="brand">
+        <img src="assets/img/logo.png" alt="Sigla Pizza Poco Loco" class="brand__logo" />
+        <span class="brand__name">Poco&nbsp;Loco</span>
+      </a>
+      <nav class="nav__links" aria-label="Navigare principală">
+        <a href="#meniu">Meniu</a>
+        <a href="#sosuri">Sosuri de casă</a>
+        <a href="#despre">Despre noi</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#contact" class="btn btn--primary nav__cta">Comandă acum</a>
+    </div>
+  </header>
+
+  <!-- ===== Hero cu carusel ===== -->
+  <section class="hero" aria-label="Galerie pizza">
+    <div class="carousel" id="carousel">
+      <div class="carousel__track" id="carousel-track">
+        <figure class="slide" style="background-image:url('assets/img/pizza-arugula-boxes.jpg')"></figure>
+        <figure class="slide" style="background-image:url('assets/img/pizza-prosciutto-rucola.png')"></figure>
+        <figure class="slide" style="background-image:url('assets/img/pizza-salami.png')"></figure>
+        <figure class="slide" style="background-image:url('assets/img/pizza-quattro.png')"></figure>
+        <figure class="slide" style="background-image:url('assets/img/pizza-diavola.png')"></figure>
+        <figure class="slide" style="background-image:url('assets/img/pizza-porumb.png')"></figure>
+      </div>
+
+      <!-- Conținut peste carusel -->
+      <div class="hero__overlay">
+        <div class="container hero__content">
+          <p class="hero__eyebrow">★ Pizza ca în Vestul Sălbatic ★</p>
+          <h1 class="hero__title">Gust nebun,<br />coaptă pe vatră</h1>
+          <p class="hero__subtitle">
+            Aluat dospit lent, ingrediente proaspete și sosuri de casă.
+            La Poco Loco fiecare felie e o aventură.
+          </p>
+          <div class="hero__actions">
+            <a href="#meniu" class="btn btn--primary">Vezi meniul</a>
+            <a href="#contact" class="btn btn--ghost">Comandă online</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Săgeți -->
+      <button class="carousel__arrow carousel__arrow--prev" id="prev" aria-label="Imaginea anterioară">‹</button>
+      <button class="carousel__arrow carousel__arrow--next" id="next" aria-label="Imaginea următoare">›</button>
+
+      <!-- Indicatori -->
+      <div class="carousel__dots" id="dots" role="tablist" aria-label="Selectează imaginea"></div>
+    </div>
+  </section>
+
+  <!-- ===== Banner caracteristici ===== -->
+  <section class="features">
+    <div class="container features__grid">
+      <div class="feature">
+        <span class="feature__icon">🔥</span>
+        <h3>Coaptă pe vatră</h3>
+        <p>Cuptor cu temperatură mare pentru o crustă pufoasă și crocantă.</p>
+      </div>
+      <div class="feature">
+        <span class="feature__icon">🌿</span>
+        <h3>Ingrediente proaspete</h3>
+        <p>Roșii cherry, rucola, mozzarella și salam selecționat zilnic.</p>
+      </div>
+      <div class="feature">
+        <span class="feature__icon">🛵</span>
+        <h3>Livrare rapidă</h3>
+        <p>Comanzi online, noi aducem pizza fierbinte la ușa ta.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Meniu (preview) ===== -->
+  <section class="menu" id="meniu">
+    <div class="container">
+      <h2 class="section-title">Preferatele casei</h2>
+      <p class="section-lead">O selecție din pizzele noastre coapte pe vatră.</p>
+      <div class="menu__grid">
+        <article class="card">
+          <div class="card__img" style="background-image:url('assets/img/pizza-prosciutto-rucola.png')"></div>
+          <div class="card__body">
+            <h3>Prosciutto &amp; Rucola</h3>
+            <p>Mozzarella, prosciutto crudo, rucola proaspătă, roșii cherry și parmezan.</p>
+            <span class="card__price">42 lei</span>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__img" style="background-image:url('assets/img/pizza-diavola.png')"></div>
+          <div class="card__body">
+            <h3>Diavola</h3>
+            <p>Sos de roșii, mozzarella, salam picant și cabanos afumat.</p>
+            <span class="card__price">38 lei</span>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__img" style="background-image:url('assets/img/pizza-quattro.png')"></div>
+          <div class="card__body">
+            <h3>Quattro Loco</h3>
+            <p>Patru arome într-una: gorgonzola, prosciutto, cabanos și porumb dulce.</p>
+            <span class="card__price">46 lei</span>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__img" style="background-image:url('assets/img/pizza-porumb.png')"></div>
+          <div class="card__body">
+            <h3>Prosciutto &amp; Porumb</h3>
+            <p>Sos de roșii, mozzarella, șuncă presată și porumb dulce.</p>
+            <span class="card__price">36 lei</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Sosuri de casă ===== -->
+  <section class="sauces" id="sosuri">
+    <div class="container sauces__inner">
+      <div class="sauces__text">
+        <h2 class="section-title">Sosuri de casă</h2>
+        <p class="section-lead">Rețetă proprie, gust autentic. Le adaugi la orice comandă.</p>
+        <ul class="sauces__list">
+          <li><span class="dot dot--red"></span> Sos Chili</li>
+          <li><span class="dot dot--yellow"></span> Sos de Usturoi</li>
+          <li><span class="dot dot--green"></span> Sos din Pulpă de Roșii</li>
+        </ul>
+      </div>
+      <div class="sauces__img" style="background-image:url('assets/img/pizza-arugula-boxes.jpg')"></div>
+    </div>
+  </section>
+
+  <!-- ===== Despre ===== -->
+  <section class="about" id="despre">
+    <div class="container about__inner">
+      <img src="assets/img/logo.png" alt="Sigla Poco Loco" class="about__logo" />
+      <div>
+        <h2 class="section-title">Despre Poco Loco</h2>
+        <p>
+          La Poco Loco facem pizza cu suflet și un strop de nebunie. Aluatul nostru
+          se dospește lent, peste 24 de ore, iar fiecare pizza e coaptă pe vatră,
+          la foc mare. Combinăm tradiția italiană cu un caracter aparte — gust intens,
+          ingrediente proaspete și sosurile noastre de casă.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact / Comandă ===== -->
+  <section class="contact" id="contact">
+    <div class="container contact__inner">
+      <h2 class="section-title section-title--light">Comandă acum</h2>
+      <p class="section-lead section-lead--light">Suntem la un telefon distanță. Livrăm fierbinte, direct la tine.</p>
+      <div class="contact__actions">
+        <a href="tel:+40700000000" class="btn btn--primary">📞 0700 000 000</a>
+        <a href="https://www.pizzapocoloco.ro" class="btn btn--ghost btn--ghost-light">pizzapocoloco.ro</a>
+      </div>
+      <p class="contact__hours">Program: Luni–Duminică · 11:00 – 23:00</p>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <img src="assets/img/logo.png" alt="Poco Loco" class="site-footer__logo" />
+      <p>&copy; <span id="year"></span> Pizza Poco Loco · Toate drepturile rezervate.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/carousel.js"></script>
+</body>
+</html>
